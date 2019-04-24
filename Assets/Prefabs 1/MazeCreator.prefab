@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1244753578562794}
+  m_IsPrefabParent: 1
+--- !u!1 &1244753578562794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4902310440904674}
+  - component: {fileID: 114220722563180432}
+  - component: {fileID: 114760577710099926}
+  m_Layer: 0
+  m_Name: MazeCreator
+  m_TagString: MazeCreator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4902310440904674
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244753578562794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114220722563180432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244753578562794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50aca05c8895eb4aba9ab08d56c4bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 46
+  rows: 46
+  floors:
+  - {fileID: 106160, guid: bcd4d06d7c74d9042864e5f39a2fbd68, type: 2}
+  - {fileID: 106160, guid: 8730877c0cce0ad4199c01b9818095c0, type: 2}
+  - {fileID: 106160, guid: 2704985ccd763694e825423b7c2a18a9, type: 2}
+  - {fileID: 106160, guid: ee3463b441055be46900e9ec37a2d6a8, type: 2}
+  - {fileID: 106160, guid: d042cf7f261c45a408fb60c25a7f1352, type: 2}
+  - {fileID: 106160, guid: a1b1550489dc5a843bc7cb32b75090b7, type: 2}
+  - {fileID: 106160, guid: dcacb3f087560754eb0c931b89b8ad3f, type: 2}
+  - {fileID: 106160, guid: e31ebfc97956b0b469a7d788743e6414, type: 2}
+  - {fileID: 106160, guid: e068aa392c56c1c4ab9394178266828a, type: 2}
+  - {fileID: 106160, guid: 8730877c0cce0ad4199c01b9818095c0, type: 2}
+  - {fileID: 106160, guid: 2704985ccd763694e825423b7c2a18a9, type: 2}
+  - {fileID: 106160, guid: a0836d1b7c1230646b4485baf41e1233, type: 2}
+  - {fileID: 106160, guid: 9aaae4aeea618fe4dad1bff363e557ee, type: 2}
+  - {fileID: 106160, guid: 0481b0d26e1486e43991660ff56d9acb, type: 2}
+  - {fileID: 106160, guid: 4855d8e98a0d42447beb30c8fdd21ab5, type: 2}
+  - {fileID: 106160, guid: 72d0964501998724b91033c0228f7e52, type: 2}
+  - {fileID: 106160, guid: 9c208d4c7d05db446aa4ffa4a9175ddc, type: 2}
+  - {fileID: 106160, guid: 03073b5d757bc914fbc53363271b74ad, type: 2}
+  wallType: {fileID: 110520, guid: 96c8216b50a649845ba3686e4da1b116, type: 2}
+  endLeft: {fileID: 110520, guid: f5ccdf812e57f984d8ba4226acabe506, type: 2}
+  endRight: {fileID: 110520, guid: de72a8b6f4b431f419c583ac9ea5eb5d, type: 2}
+  horizontal: {fileID: 110520, guid: 46aec21086a352740bebd206f5cace5d, type: 2}
+  edgeLeft: {fileID: 1295881330326764, guid: c381f3117bd54e34982e66fb616aeead, type: 2}
+  edgeRight: {fileID: 1064432091864624, guid: ddcd5417dc01bf14a874b15c18bc6ad8, type: 2}
+  verticalRight: {fileID: 110520, guid: f34df9f831c183349a1f3341e2e219da, type: 2}
+  borderRight: {fileID: 1615174561849812, guid: 2d22dd411a571ab43bf557d086a884b8,
+    type: 2}
+  borderLeft: {fileID: 1063573675638422, guid: c5eebaf89ed225544a2ae96add2dab47, type: 2}
+  borderTop: {fileID: 1505347180300484, guid: cad32573050260a43b948a12533042b1, type: 2}
+  borderDown: {fileID: 1125745958890554, guid: 40099df12c96cd440885f73f68aa9de4, type: 2}
+  verticalLeft: {fileID: 1824066657993352, guid: c71f72b53cf1a234abbe13d428764ea0,
+    type: 2}
+  specialFloor: {fileID: 1505347180300484, guid: 62463a2c547b4714dae2bded40051d2f,
+    type: 2}
+  cornerRight: {fileID: 1505347180300484, guid: 2fff0c6f92bc03a46b27beaaaf980724,
+    type: 2}
+  cornerLeft: {fileID: 1505347180300484, guid: bfd09144888d8614e841ffc46cef09e1, type: 2}
+  cornerTopLeft: {fileID: 1505347180300484, guid: 62463a2c547b4714dae2bded40051d2f,
+    type: 2}
+  cornerTopRight: {fileID: 1505347180300484, guid: 5a0b8d1d279ce76489e6b41126e15454,
+    type: 2}
+  mazeHolder: {fileID: 0}
+--- !u!114 &114760577710099926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244753578562794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 158
+    i1: 255
+    i2: 38
+    i3: 35
+    i4: 119
+    i5: 76
+    i6: 82
+    i7: 20
+    i8: 58
+    i9: 77
+    i10: 70
+    i11: 145
+    i12: 51
+    i13: 180
+    i14: 179
+    i15: 63
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1

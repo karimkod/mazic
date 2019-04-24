@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Maze
+  - Outage
+  - MazeCreator
+  - Wall
+  - Runner
+  - Chaser
+  - Patroller
+  - Food
+  - Key
+  - Torch
+  - Trap
+  - GameManager
+  - Shield
+  - Signal
+  - RunnerUI
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Minimap
+  - notMinimap
+  - All
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 389218567
+    locked: 0
+  - name: Pickups
+    uniqueID: 3402919297
+    locked: 0
+  - name: Player
+    uniqueID: 1338097493
+    locked: 0
+  - name: FogOfWar
+    uniqueID: 831122231
+    locked: 0
+  - name: HUD
+    uniqueID: 3803379691
+    locked: 0

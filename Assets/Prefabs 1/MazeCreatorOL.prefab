@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1244753578562794}
+  m_IsPrefabParent: 1
+--- !u!1 &1244753578562794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4902310440904674}
+  - component: {fileID: 114694491360586718}
+  - component: {fileID: 114064924391671622}
+  m_Layer: 0
+  m_Name: MazeCreatorOL
+  m_TagString: MazeCreator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4902310440904674
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244753578562794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114064924391671622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244753578562794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f74bdd18ff669141a9fcfdf9a4d484f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 31
+  rows: 31
+  floor: {fileID: 106160, guid: dac6a20ea3f729843b738422af5449f6, type: 2}
+  wallType: {fileID: 110520, guid: 46aec21086a352740bebd206f5cace5d, type: 2}
+  endLeft: {fileID: 110520, guid: f5ccdf812e57f984d8ba4226acabe506, type: 2}
+  endRight: {fileID: 110520, guid: de72a8b6f4b431f419c583ac9ea5eb5d, type: 2}
+  horizontal: {fileID: 110520, guid: 46aec21086a352740bebd206f5cace5d, type: 2}
+  edgeLeft: {fileID: 1295881330326764, guid: c381f3117bd54e34982e66fb616aeead, type: 2}
+  edgeRight: {fileID: 1064432091864624, guid: ddcd5417dc01bf14a874b15c18bc6ad8, type: 2}
+  verticalRight: {fileID: 110520, guid: f34df9f831c183349a1f3341e2e219da, type: 2}
+  borderRight: {fileID: 1615174561849812, guid: 2d22dd411a571ab43bf557d086a884b8,
+    type: 2}
+  borderLeft: {fileID: 1063573675638422, guid: c5eebaf89ed225544a2ae96add2dab47, type: 2}
+  borderTop: {fileID: 1505347180300484, guid: cad32573050260a43b948a12533042b1, type: 2}
+  borderDown: {fileID: 1125745958890554, guid: 40099df12c96cd440885f73f68aa9de4, type: 2}
+  verticalLeft: {fileID: 1824066657993352, guid: c71f72b53cf1a234abbe13d428764ea0,
+    type: 2}
+  specialFloor: {fileID: 1495897616984600, guid: a5cc5ceb620d61b4ba0ed61381754145,
+    type: 2}
+  cornerRight: {fileID: 1505347180300484, guid: 2fff0c6f92bc03a46b27beaaaf980724,
+    type: 2}
+  cornerLeft: {fileID: 1505347180300484, guid: bfd09144888d8614e841ffc46cef09e1, type: 2}
+  cornerTopLeft: {fileID: 1505347180300484, guid: 62463a2c547b4714dae2bded40051d2f,
+    type: 2}
+  cornerTopRight: {fileID: 1505347180300484, guid: 5a0b8d1d279ce76489e6b41126e15454,
+    type: 2}
+  mazeHolder: {fileID: 0}
+--- !u!114 &114694491360586718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244753578562794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de52e3160ac6294fb01463f443aef0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outage: []
+  keys: []
+  dogsCage: {fileID: 1645977105128290, guid: 41e14d342a6471246aa01fca35759e6e, type: 2}
+  rows: 0
+  columns: 0
+  objRows: 0
+  objColumns: 0
